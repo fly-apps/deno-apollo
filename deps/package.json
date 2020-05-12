@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "prepare": "snowpack",
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1"
+  },
+  "webDependencies": {
+    "canvas-confetti": "^1.2.0"
+  },
+  "devDependencies": {
+    "snowpack": "^2.0.0-0"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.0.0-beta.44",
+    "graphql": "^15.0.0"
+  }
+}
